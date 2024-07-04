@@ -1,0 +1,116 @@
+﻿<Window x:Class="QuyenND_SE1813_AS01.ProfileCustomer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuyenND_SE1813_AS01"
+        mc:Ignorable="d"
+        Title="ProfileCustomer" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Full Name:" Grid.Column="0" 
+                FontSize="13"
+         VerticalAlignment="Center" 
+          Margin="10 0 0 0"/>
+                    <TextBox x:Name="txtFullName1" Grid.Column="1" Margin="10 15"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="TelePhone:" Grid.Column="0" 
+       FontSize="13"
+VerticalAlignment="Center" 
+ Margin="10 0 0 0"/>
+                    <TextBox x:Name="txtTelePhone" Grid.Column="1" Margin="10 15" />
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Email:" Grid.Column="0" 
+       FontSize="13"
+VerticalAlignment="Center" 
+ Margin="10 0 0 0"/>
+                    <TextBox x:Name="txtEmail" Grid.Column="1" Margin="10 15" />
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Birthday:" Grid.Column="0" 
+       FontSize="13"
+VerticalAlignment="Center" 
+ Margin="10 0 0 0"/>
+                    <DatePicker x:Name="dtpDate" Grid.Column="1" Margin="10 15"></DatePicker>
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Password:" Grid.Column="0" 
+       FontSize="13"
+VerticalAlignment="Center" 
+ Margin="10 0 0 0"/>
+                    <TextBox x:Name="txtPassword" Grid.Column="1" Margin="10 15" />
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="6*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <TextBlock Text="Order History" 
+       FontSize="25" HorizontalAlignment="Center"
+VerticalAlignment="Center" FontWeight="Bold" />
+                </Grid>
+                <Grid Grid.Row="1">
+                    <ListView x:Name="lvOrderHistory">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="OrderId" Width="50" DisplayMemberBinding="{Binding OrderId}"/>
+                                <GridViewColumn Header="OrderDate" Width="140" DisplayMemberBinding="{Binding OrderDate}"/>
+                                <GridViewColumn Header="RoomId" Width="100" DisplayMemberBinding="{Binding RoomId}"/>
+                                <GridViewColumn Header="Room Number" Width="100" DisplayMemberBinding="{Binding RoomInformation.RoomNumber}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="btnAddRoom" Content="Update" Margin="5" Width="80" Click="btnAddRoom_Click"></Button>
+                <Button x:Name="btnBackRoom" Content="Back" Margin="5" Width="80" Click="btnBackRoom_Click"></Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\bin\Debug\net8.0\appsettings.json
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\bin\Debug\net8.0\DataAcess.deps.json
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\bin\Debug\net8.0\DataAcess.runtimeconfig.json
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\bin\Debug\net8.0\DataAcess.dll
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\bin\Debug\net8.0\DataAcess.pdb
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\obj\Debug\net8.0\DataAcess.csproj.AssemblyReference.cache
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\obj\Debug\net8.0\DataAcess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\obj\Debug\net8.0\DataAcess.AssemblyInfoInputs.cache
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\obj\Debug\net8.0\DataAcess.AssemblyInfo.cs
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\obj\Debug\net8.0\DataAcess.csproj.CoreCompileInputs.cache
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\obj\Debug\net8.0\DataAcess.dll
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\obj\Debug\net8.0\refint\DataAcess.dll
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\obj\Debug\net8.0\DataAcess.pdb
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\obj\Debug\net8.0\DataAcess.genruntimeconfig.cache
+D:\Desktop\C# giao lang\Assignment\QuyenND_SE1813_AS01\DataAcess\obj\Debug\net8.0\ref\DataAcess.dll
