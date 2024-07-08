@@ -1,0 +1,552 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|d:\\desktop\\c# giao lang\\projectwpf\\quanlyquanbia\\quanlyquanbia\\quanlytable.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|solutionrelative:quanlyquanbia\\quanlytable.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\quanlyquanbia\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|solutionrelative:quanlyquanbia\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|d:\\desktop\\c# giao lang\\projectwpf\\quanlyquanbia\\quanlyquanbia\\accountprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|solutionrelative:quanlyquanbia\\accountprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\quanlyquanbia\\accountprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|solutionrelative:quanlyquanbia\\accountprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\quanlyquanbia\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|solutionrelative:quanlyquanbia\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\quanlyquanbia\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|solutionrelative:quanlyquanbia\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\businessobject\\accountobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\accountobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\quanlyquanbia\\quanlytable.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|solutionrelative:quanlyquanbia\\quanlytable.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\quanlyquanbia\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|solutionrelative:quanlyquanbia\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\quanlyquanbia\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B01F7EC-87DD-41BB-B01C-D373855A7277}|QuanLyQuanBia\\QuanLyQuanBia.csproj|solutionrelative:quanlyquanbia\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\repository\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\repository\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|d:\\desktop\\c# giao lang\\projectwpf\\quanlyquanbia\\dataaccess\\repository\\ibillinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\ibillinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\businessobject\\billobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\billobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\businessobject\\tablebiaobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\tablebiaobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\models\\billinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\billinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\models\\quanlybilliardsclubcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\quanlybilliardsclubcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|d:\\desktop\\c# giao lang\\projectwpf\\quanlyquanbia\\dataaccess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\models\\tablebia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\tablebia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\repository\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|d:\\desktop\\c# giao lang\\projectwpf\\quanlyquanbia\\dataaccess\\repository\\iwaterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\iwaterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\repository\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\repository\\tablecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\tablecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\businessobject\\tablecategoryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\tablecategoryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\businessobject\\waterobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\waterobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\repository\\billinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\billinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\businessobject\\billinfoobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744E28A4-688F-4095-8599-EF740038DAE7}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\billinfoobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\models\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\dataaccess\\repository\\itablecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF90DB1-8B55-4CD4-9714-87903631BB66}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\itablecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 232,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountProfile.xaml.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\AccountProfile.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanBia\\AccountProfile.xaml.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\AccountProfile.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanBia\\AccountProfile.xaml.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwHUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T17:23:10.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountProfile.xaml",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\AccountProfile.xaml",
+              "RelativeDocumentMoniker": "QuanLyQuanBia\\AccountProfile.xaml",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\AccountProfile.xaml",
+              "RelativeToolTip": "QuanLyQuanBia\\AccountProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-04T15:07:45.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuanLyTable.xaml.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\QuanLyTable.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanBia\\QuanLyTable.xaml.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\QuanLyTable.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanBia\\QuanLyTable.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAADoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T17:31:54.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TableBiaObject.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\TableBiaObject.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\TableBiaObject.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\TableBiaObject.cs",
+              "RelativeToolTip": "BusinessObject\\TableBiaObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T07:50:33.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanBia\\Login.xaml.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\Login.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanBia\\Login.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T03:16:49.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountObject.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\AccountObject.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\AccountObject.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\AccountObject.cs",
+              "RelativeToolTip": "BusinessObject\\AccountObject.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAwE4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T03:38:05.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\IAccountRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\IAccountRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\IAccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T03:20:07.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\Login.xaml",
+              "RelativeDocumentMoniker": "QuanLyQuanBia\\Login.xaml",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\Login.xaml",
+              "RelativeToolTip": "QuanLyQuanBia\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-02T01:07:36.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\AccountRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\AccountRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\AccountRepository.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwF4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:27:15.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.xaml.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\Admin.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanBia\\Admin.xaml.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\Admin.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanBia\\Admin.xaml.cs",
+              "ViewState": "AQIAAFwCAAAAAAAAAADwv/ABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T04:01:53.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Admin.xaml",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\Admin.xaml",
+              "RelativeDocumentMoniker": "QuanLyQuanBia\\Admin.xaml",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\Admin.xaml",
+              "RelativeToolTip": "QuanLyQuanBia\\Admin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-02T07:47:25.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\App.xaml",
+              "RelativeDocumentMoniker": "QuanLyQuanBia\\App.xaml",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\App.xaml",
+              "RelativeToolTip": "QuanLyQuanBia\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-02T03:36:24.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuanLyTable.xaml",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\QuanLyTable.xaml",
+              "RelativeDocumentMoniker": "QuanLyQuanBia\\QuanLyTable.xaml",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\QuanLyQuanBia\\QuanLyTable.xaml",
+              "RelativeToolTip": "QuanLyQuanBia\\QuanLyTable.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-01T17:31:51.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BillInfo.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Models\\BillInfo.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\BillInfo.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Models\\BillInfo.cs",
+              "RelativeToolTip": "DataAccess\\Models\\BillInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:44:11.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BillRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\BillRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\BillRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\BillRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\BillRepository.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAuwDkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:25:16.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBillRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\IBillRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\IBillRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\IBillRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\IBillRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:01:02.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BillObject.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\BillObject.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\BillObject.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\BillObject.cs",
+              "RelativeToolTip": "BusinessObject\\BillObject.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:37:12.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuanLyBilliardsClubContext.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Models\\QuanLyBilliardsClubContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\QuanLyBilliardsClubContext.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Models\\QuanLyBilliardsClubContext.cs",
+              "RelativeToolTip": "DataAccess\\Models\\QuanLyBilliardsClubContext.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowEgAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T10:25:49.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBillInfoRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\IBillInfoRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\IBillInfoRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\IBillInfoRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\IBillInfoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T15:45:14.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TableCategoryRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\TableCategoryRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\TableCategoryRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\TableCategoryRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\TableCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T09:55:08.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TableCategoryObject.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\TableCategoryObject.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\TableCategoryObject.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\TableCategoryObject.cs",
+              "RelativeToolTip": "BusinessObject\\TableCategoryObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T09:53:26.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Water.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Models\\Water.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\Water.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Models\\Water.cs",
+              "RelativeToolTip": "DataAccess\\Models\\Water.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T08:03:47.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Models\\Bill.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\Bill.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Models\\Bill.cs",
+              "RelativeToolTip": "DataAccess\\Models\\Bill.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:18:41.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\appsettings.json",
+              "RelativeDocumentMoniker": "DataAccess\\appsettings.json",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\appsettings.json",
+              "RelativeToolTip": "DataAccess\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-08T14:08:34.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITableRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\ITableRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\ITableRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\ITableRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\ITableRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:27:23.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TableRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\TableRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\TableRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\TableRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\TableRepository.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAUwKQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T07:57:12.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WaterObject.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\WaterObject.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\WaterObject.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\WaterObject.cs",
+              "RelativeToolTip": "BusinessObject\\WaterObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:47:50.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BillInfoObject.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\BillInfoObject.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\BillInfoObject.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\BusinessObject\\BillInfoObject.cs",
+              "RelativeToolTip": "BusinessObject\\BillInfoObject.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowBkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:37:32.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TableBia.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Models\\TableBia.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\TableBia.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Models\\TableBia.cs",
+              "RelativeToolTip": "DataAccess\\Models\\TableBia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T07:50:36.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BillInfoRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\BillInfoRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\BillInfoRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\BillInfoRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\BillInfoRepository.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAWwFgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:51:34.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IWaterRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\IWaterRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\IWaterRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\IWaterRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\IWaterRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:21:37.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ITableCategoryRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\ITableCategoryRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\ITableCategoryRepository.cs",
+              "ToolTip": "D:\\Desktop\\C# giao lang\\ProjectWPF\\QuanLyQuanBia\\DataAccess\\Repository\\ITableCategoryRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\ITableCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T09:54:02.547Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

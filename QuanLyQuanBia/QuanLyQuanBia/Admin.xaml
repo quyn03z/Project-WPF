@@ -1,0 +1,471 @@
+﻿<Window x:Class="QuanLyQuanBia.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyQuanBia"
+        mc:Ignorable="d"
+        Title="Billiard Club"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        Height="550" Width="800">
+    <Grid>
+        <TabControl>
+            <!-- Tab 1 -->
+            <TabItem Header="Doanh Thu">
+                <Grid x:Name="tIDoanhThu" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="15*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" >
+                            <TextBlock Text="Start Date" FontSize="18" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Grid Grid.Column="1"  Margin="0 0 20 0">
+                            <DatePicker x:Name="dtpStartDate"></DatePicker>
+                        </Grid>
+                        <Grid Grid.Column="2" >
+                            <TextBlock Text="End Date" FontSize="18" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Grid Grid.Column="3" Margin="0 0 20 0">
+                            <DatePicker x:Name="dtpEndDate"></DatePicker>
+                        </Grid>
+                        <Grid Grid.Column="4">
+                            <Button x:Name="btnThongKe"        
+                            Content="Thống kê" Margin="10 0 0 0" Click="btnThongKe_Click"/>
+                        </Grid>
+                       
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <DataGrid Margin="0 10 0 0" x:Name="dgDoanhThu" AutoGenerateColumns="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                <DataGrid.Columns>
+                                <DataGridTextColumn Header="Table Name" IsReadOnly="True" Width="*" Binding="{Binding IdTableBiaNavigation.Name}"/>
+                                <DataGridTextColumn Header="Time Check In" IsReadOnly="True" Width="*" Binding="{Binding TimeCheckIn}"/>
+                                <DataGridTextColumn Header="Time Check Out" IsReadOnly="True" Width="*" Binding="{Binding TimeCheckOut}"/>
+                                <DataGridTextColumn Header="Total Price" IsReadOnly="True" Width="*" Binding="{Binding totalPrice,StringFormat={}{0:N3}}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <!-- Tab 2 -->
+            <TabItem Header="Quản Lý Bàn" Margin="-1,0,-1,0">
+                <Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0*"/>
+                            <ColumnDefinition Width="238*"/>
+                            <ColumnDefinition Width="159*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Grid.ColumnSpan="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0" Margin="0 10 0 0">
+                                <DataGrid x:Name="dgTable" AutoGenerateColumns="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectedCellsChanged="dgTable_SelectedCellsChanged">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Table Id" IsReadOnly="True" Width="*" Binding="{Binding Id}"/>
+                                        <DataGridTextColumn Header="Table Name" IsReadOnly="True" Width="*" Binding="{Binding Name}"/>
+                                        <DataGridTextColumn Header="Category Name" IsReadOnly="True" Width="*" Binding="{Binding IdCategoryNavigation.Name}"/>
+                                        <DataGridTextColumn Header="Price" IsReadOnly="True" Width="*" Binding="{Binding IdCategoryNavigation.Price}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </Grid>
+                        <Grid Grid.Column="2" Margin="5,0,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition Height="7*"/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <TextBox x:Name="txtSearchTable" Grid.Column="1" 
+                                             Margin="10"/>
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <Button x:Name="btnSearchTable"        
+                                Content="Tìm" Margin="10" Click="btnSearchTable_Click"/>
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="3*"/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition Height="6*"/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="1">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                        </Grid.RowDefinitions>
+                                        <Grid Grid.Row="0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition/>
+                                                <ColumnDefinition Width="2*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="ID:" Grid.Column="0" 
+                                                       FontSize="15"
+                                                       VerticalAlignment="Center" 
+                                                       Margin="10 0 0 0"/>
+                                            <TextBox x:Name="txtIdTable" Grid.Column="1" Margin="10 10" IsReadOnly="True"/>
+                                        </Grid>
+                                        <Grid Grid.Row="1">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition/>
+                                                <ColumnDefinition Width="2*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="Tên Bàn:" Grid.Column="0" 
+                                                       FontSize="15"
+                                                       VerticalAlignment="Center" 
+                                                       Margin="10 0 0 0"/>
+                                            <TextBox x:Name="txtNameTable" 
+                                                     Grid.Column="1" Margin="10 10"/>
+                                        </Grid>
+                                        <Grid Grid.Row="4">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition/>
+                                                <ColumnDefinition Width="2*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="Giá:" Grid.Column="0" 
+                                                       FontSize="15"
+                                                       VerticalAlignment="Center" 
+                                                       Margin="10 0 0 0"/>
+                                            <TextBox x:Name="txtPriceTable" 
+                                                     Grid.Column="1" Margin="10 10" 
+                                                      IsReadOnly="True"/>
+                                        </Grid>
+                                        <Grid Grid.Row="3">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition/>
+                                                <ColumnDefinition Width="2*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="Loại Bàn:" 
+                                                       Grid.Column="0" FontSize="15"
+                                                       VerticalAlignment="Center" Margin="10 0 0 0"/>
+                                            <ComboBox x:Name="cbTableName" 
+                                                     Grid.Column="1" Margin="10 10" SelectionChanged="cbTableName_SelectionChanged"/>
+                                        </Grid>
+                                        <Grid Grid.Row="2">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition/>
+                                                <ColumnDefinition Width="2*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="Id Category:" 
+               Grid.Column="0" FontSize="15"
+               VerticalAlignment="Center" Margin="10 0 0 0"/>
+                                            <ComboBox x:Name="cbIdCategory" 
+             Grid.Column="1" Margin="10 10" SelectionChanged="cbIdCategory_SelectionChanged" />
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0">
+                                        <Button x:Name="btnAddTable"              
+Content="Thêm" Margin="10 30" Click="btnAddTable_Click"/>
+                                    </Grid>
+                                    <Grid Grid.Column="1">
+                                        <Button x:Name="btnUpdateTable"  
+Content="Sửa" Margin="10 30" Click="btnUpdateTable_Click"/>
+                                    </Grid>
+                                    <Grid Grid.Column="2">
+                                        <Button x:Name="btnDeleteTable"            
+        Content="Xóa" Margin="10 30" Click="btnDeleteTable_Click"/>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <!-- Tab 3 -->
+            <TabItem Header="Quản Lý Nước" Height="24" Margin="0,0,-4,0" VerticalAlignment="Center">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1.5*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="110*"/>
+                            <ColumnDefinition Width="367*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0"  Grid.ColumnSpan="2">
+
+                        </Grid>
+                        <Grid Grid.ColumnSpan="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0*"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <DataGrid x:Name="dgWater" AutoGenerateColumns="False" SelectedCellsChanged="dgWater_SelectedCellsChanged" Grid.ColumnSpan="2" Margin="0 10">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Id" IsReadOnly="True" Width="0.5*" Binding="{Binding Id}"/>
+                                    <DataGridTextColumn Header="Water Name" IsReadOnly="True" Width="*" Binding="{Binding Name}"/>
+                                    <DataGridTextColumn Header="Price" IsReadOnly="True" Width="*" Binding="{Binding Price}"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition Height="7*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <TextBox x:Name="txtSearchWater" Grid.Column="1" 
+                  Margin="10"/>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Button x:Name="btnSearchWater"        
+     Content="Tìm" Margin="10" Click="btnSearchWater_Click"/>
+                            </Grid>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition Height="6*"/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="2*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="Id:" Grid.Column="0" 
+                                                   FontSize="20"      
+                                                   VerticalAlignment="Center" Margin="10
+                                                   0 0 0"/>
+                                        <TextBox x:Name="txtIdWater" Grid.Column="1" 
+                                                 Margin="10 25" IsReadOnly="True"/>
+                                    </Grid>
+                                    <Grid Grid.Row="1">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="2*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="Name:" Grid.Column="0" 
+                                                   FontSize="18"
+                                                   VerticalAlignment="Center" Margin="10
+                                                   0 0 0"/>
+                                        <TextBox x:Name="txtNameWater" Grid.Column="1" 
+                                                 Margin="10 25"/>
+                                    </Grid>
+                                    <Grid Grid.Row="2">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="2*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="Price:" Grid.Column="0" 
+                                                   FontSize="18"
+                                                   VerticalAlignment="Center" Margin="10                                        0 0 0"/>
+                                        <TextBox x:Name="txtPriceWater" Grid.Column="1" 
+                                                 Margin="10 25"/>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Row="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Button x:Name="btnAddWater"              
+    Content="Thêm" Margin="10 30" Click="btnAddWater_Click"/>
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <Button x:Name="btnUpdateWater"  
+    Content="Sửa" Margin="10 30" Click="btnUpdateWater_Click"/>
+                                </Grid>
+                                <Grid Grid.Column="2">
+                                    <Button x:Name="btnDeleteWater"            
+            Content="Xóa" Margin="10 30" Click="btnDeleteWater_Click"/>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <!-- Tab 4 -->
+            <TabItem Header="Quản Lý Account">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1.5*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Grid>
+                            <DataGrid x:Name="dgAccount" AutoGenerateColumns="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0 10" SelectedCellsChanged="dgAccount_SelectedCellsChanged" >
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Id" IsReadOnly="True" Width="0.5*" Binding="{Binding Id}"/>
+                                    <DataGridTextColumn Header="User Name" IsReadOnly="True" Width="*" Binding="{Binding Username  }"/>
+                                    <DataGridTextColumn Header="Name" IsReadOnly="True" Width="*" Binding="{Binding Name}"/>
+                                    <DataGridTextColumn Header="Password" IsReadOnly="True" Width="*" Binding="{Binding Password}"/>
+                                    <DataGridTextColumn Header="Role" IsReadOnly="True" Width="*" Binding="{Binding Role}"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="43*"/>
+                            <RowDefinition Height="208*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Margin="0,66,0,0" Grid.RowSpan="2">
+                            <Grid.RowDefinitions>
+
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="41*"/>
+                                    <RowDefinition Height="241*"/>
+                                    <RowDefinition Height="45*"/>
+                                </Grid.RowDefinitions>
+                                <Grid Margin="0,41,0,0" Grid.RowSpan="2">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="2*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="Id Account:" Grid.Column="0" 
+          FontSize="18"      
+          VerticalAlignment="Center" Margin="10
+          0 0 0" />
+                                        <TextBox x:Name="txtIdAccount" Grid.Column="1" 
+        Margin="5" IsReadOnly="True"/>
+                                    </Grid>
+                                    <Grid Grid.Row="1">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="2*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="UserName:" Grid.Column="0" 
+                                              FontSize="18"      
+                                              VerticalAlignment="Center" Margin="10
+                                              0 0 0"/>
+                                        <TextBox x:Name="txtUserName" Grid.Column="1" 
+                                            Margin="5"/>
+                                    </Grid>
+                                    <Grid Grid.Row="2">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="2*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="Name:" Grid.Column="0" 
+                                              FontSize="18"
+                                              VerticalAlignment="Center" Margin="10
+                                              0 0 0"/>
+                                        <TextBox x:Name="txtNameAccount" Grid.Column="1" 
+                                            Margin="5"/>
+                                    </Grid>
+                                    <Grid Grid.Row="4">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="2*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="Role:" Grid.Column="0" 
+                                              FontSize="18"
+                                              VerticalAlignment="Center" Margin="10                                        0 0 0"/>
+                                        <TextBox x:Name="txtRoleAccount" Grid.Column="1" 
+                                            Margin="5" IsReadOnly="True"/>
+                                    </Grid>
+                                    <Grid Grid.Row="3">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="2*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="PassWord:" Grid.Column="0" 
+          FontSize="18"
+          VerticalAlignment="Center" Margin="10                                        0 0 0"/>
+                                        <TextBox x:Name="txtPassWord" Grid.Column="1" 
+        Margin="5"/>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Row="2">
+                                <Grid Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0">
+                                        <Button x:Name="btnAddAccount"              
+   Content="Thêm" Margin="10 30" Click="btnAddAccount_Click"/>
+                                    </Grid>
+                                    <Grid Grid.Column="1">
+                                        <Button x:Name="btnUpdateAccount"  
+   Content="Sửa" Margin="10 30" Click="btnUpdateAccount_Click"/>
+                                    </Grid>
+                                    <Grid Grid.Column="2">
+                                        <Button x:Name="btnDeleteAccount"            
+           Content="Xóa" Margin="10 30" Click="btnDeleteAccount_Click"/>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
