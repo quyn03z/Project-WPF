@@ -350,7 +350,6 @@ Content="Sửa" Margin="10 30" Click="btnUpdateTable_Click"/>
                                     <DataGridTextColumn Header="User Name" IsReadOnly="True" Width="*" Binding="{Binding Username  }"/>
                                     <DataGridTextColumn Header="Name" IsReadOnly="True" Width="*" Binding="{Binding Name}"/>
                                     <DataGridTextColumn Header="Password" IsReadOnly="True" Width="*" Binding="{Binding Password}"/>
-                                    <DataGridTextColumn Header="Role" IsReadOnly="True" Width="*" Binding="{Binding Role}"/>
                                 </DataGrid.Columns>
                             </DataGrid>
                         </Grid>
@@ -416,17 +415,6 @@ Content="Sửa" Margin="10 30" Click="btnUpdateTable_Click"/>
                                               0 0 0"/>
                                         <TextBox x:Name="txtNameAccount" Grid.Column="1" 
                                             Margin="5"/>
-                                    </Grid>
-                                    <Grid Grid.Row="4">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition/>
-                                            <ColumnDefinition Width="2*"/>
-                                        </Grid.ColumnDefinitions>
-                                        <TextBlock Text="Role:" Grid.Column="0" 
-                                              FontSize="18"
-                                              VerticalAlignment="Center" Margin="10                                        0 0 0"/>
-                                        <TextBox x:Name="txtRoleAccount" Grid.Column="1" 
-                                            Margin="5" IsReadOnly="True"/>
                                     </Grid>
                                     <Grid Grid.Row="3">
                                         <Grid.ColumnDefinitions>

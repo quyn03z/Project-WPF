@@ -457,7 +457,6 @@ namespace QuanLyQuanBia
                 txtIdAccount.Text = account.Id.ToString();
                 txtUserName.Text = account.Username.ToString();
                 txtNameAccount.Text = account.Name.ToString();
-                txtRoleAccount.Text = account.Role.ToString();
                 txtPassWord.Text = account.Password.ToString();
             }
         }

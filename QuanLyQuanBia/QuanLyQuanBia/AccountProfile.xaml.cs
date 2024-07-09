@@ -36,8 +36,6 @@ namespace QuanLyQuanBia
             Account account = accountObject.GetAccountById(accountId);
             txtDisplayName.Text = account.Name;
             txtUserName.Text = account.Username;
-
-
         }
 
         private void btnExit_Click(object sender, RoutedEventArgs e)

@@ -15,6 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace QuanLyQuanBia
 {
@@ -233,16 +234,22 @@ namespace QuanLyQuanBia
 
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
-            int accountId = AccountObject.accountLogin.Id ?? 0;
-            AccountProfile f = new AccountProfile(accountId);
-            f.ShowDialog();
+         
+
+
+            if (AccountObject.accountLogin != null)
+            {
+               int accountId = AccountObject.accountLogin.Id ?? 0;
+               AccountProfile f = new AccountProfile(accountId);
+               f.ShowDialog();                
+            }
         }
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
             if (AccountObject.accountLogin != null )
             {
-                if (AccountObject.accountLogin.Role.Equals("admin"))
+                if (AccountObject.accountLogin.Role == 2)
                 {
                     Admin f = new Admin();
                     f.Closed += AdminWindow_Closed;
@@ -398,7 +405,7 @@ namespace QuanLyQuanBia
                 }
                 else
                 {
-                    MessageBox.Show("No table selected. Please select a table first.");
+                    MessageBox.Show("Không có bảng nào được chọn. Vui lòng chọn một bảng trước.");
                 }
             }
             catch (Exception ex)

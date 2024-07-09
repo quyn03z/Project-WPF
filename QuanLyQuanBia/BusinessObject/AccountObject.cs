@@ -14,11 +14,11 @@ namespace BusinessObject
     public class AccountLogin
     {
         public int? Id { get; set; }
-        public string Role { get; set; }
+        public int Role { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
 
-        public AccountLogin(string role, string email, string password)
+        public AccountLogin(int role, string email, string password)
         {
             Role = role;
             Email = email;
@@ -35,38 +35,26 @@ namespace BusinessObject
             _accountRepository = new AccountRepository();
         }
 
-        public bool Login(string username,string password)
+        public bool Login(string username, string password)
         {
-
-            var currentDirectory = Directory.GetCurrentDirectory();
-            var projectDirectory = Path.GetFullPath(Path.Combine(currentDirectory, "..\\..\\..\\.."));
-            var appSettingsPath = Path.Combine(projectDirectory, "DataAcess");
-
-            var builder = new ConfigurationBuilder()
-                                .SetBasePath(Directory.GetCurrentDirectory())
-                                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-            IConfiguration configuration = builder.Build();
-
-            string adminUsername = configuration.GetSection("AdminAccount:Username").Value;
-            string adminPassword = configuration.GetSection("AdminAccount:Password").Value;
-
-            if (adminUsername.Equals(username) && adminPassword.Equals(password))
-            {
-                accountLogin = new AccountLogin("admin", username, password);
-                return true;
-            }
-
             Account account = _accountRepository.FindAccount(username, password);
             if (account == null)
             {
                 return false;
             }
-
-            accountLogin = new AccountLogin("normal", username, password);
+            if (account.Role == 1)
+            {
+                accountLogin = new AccountLogin(1, username, password);
+            }
+            else
+            {
+                accountLogin = new AccountLogin(2, username, password);
+            }
             accountLogin.Id = account.Id;
 
             return true;
         }
+
 
         public List<Account> GetAccount() => _accountRepository.GetAll();
 
