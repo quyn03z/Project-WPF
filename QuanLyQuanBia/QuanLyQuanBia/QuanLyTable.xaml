@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:QuanLyQuanBia"
         mc:Ignorable="d"
         Title="Billiard Club"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen" 
-        Height="650" Width="900">
+        Height="650" Width="950">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -84,9 +84,9 @@
                         <ListView x:Name="lvBillInfo" Margin="0 0 10 0">
                             <ListView.View>
                                 <GridView>
-                                    <GridViewColumn Header="Water" Width="120" DisplayMemberBinding="{Binding IdWaterNavigation.Name}"/>
+                                    <GridViewColumn Header="Water" Width="130" DisplayMemberBinding="{Binding IdWaterNavigation.Name}"/>
                                     <GridViewColumn Header="Quantity" Width="80" DisplayMemberBinding="{Binding Quantity}"/>
-                                    <GridViewColumn Header="Price" Width="120" DisplayMemberBinding="{Binding IdWaterNavigation.Price,
+                                    <GridViewColumn Header="Price" Width="130" DisplayMemberBinding="{Binding IdWaterNavigation.Price,
                 StringFormat={}{0:N3}}"/>
                                     <GridViewColumn Header="Total Price" Width="120" DisplayMemberBinding="{Binding TotalPrice,
                 StringFormat={}{0:N3}}"/>
@@ -98,7 +98,7 @@
                         <ListView x:Name="lvBill" Margin="0 0 10 0">
                             <ListView.View>
                                 <GridView>
-                                    <GridViewColumn Header="Time Check In" Width="110">
+                                    <GridViewColumn Header="Time Check In" Width="130">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <TextBlock Text="{Binding TimeCheckIn, StringFormat={}{0:dd/MM/yyyy HH:mm:ss}}" />
@@ -106,7 +106,7 @@
                                         </GridViewColumn.CellTemplate>
                                     </GridViewColumn>
 
-                                    <GridViewColumn Header="Time Check Out" Width="110">
+                                    <GridViewColumn Header="Time Check Out" Width="130">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <TextBlock Text="{Binding TimeCheckOut, StringFormat={}{0:dd/MM/yyyy HH:mm:ss}}" />
@@ -116,7 +116,7 @@
 
                                     <GridViewColumn Header="Price Table" Width="110" DisplayMemberBinding="{Binding IdTableBiaNavigation.IdCategoryNavigation.Price, StringFormat={}{0:N3}}"/>
 
-                                    <GridViewColumn Header="Total Price" Width="110">
+                                    <GridViewColumn Header="Total Price" Width="90">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <TextBlock Text="{Binding TotalPrice, StringFormat={}{0:N3}}" />

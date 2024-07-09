@@ -25,13 +25,30 @@ public partial class Bill
     {
         get
         {
-            if (TimeCheckOut != null && TimeCheckIn != null && IdTableBiaNavigation != null)
+            if (TimeCheckOut != null && TimeCheckIn != null && IdTableBiaNavigation != null && IdTableBiaNavigation.IdCategoryNavigation != null)
             {
                 TimeSpan duration = TimeCheckOut.Value - TimeCheckIn;
                 double price = IdTableBiaNavigation.IdCategoryNavigation.Price; // Assuming this is where the price is derived from
                 return (double)duration.TotalHours * price; // Adjust formula as per your pricing logic
             }
-            return 0; // Handle null values or default cases
+            return 0; 
+        }
+    }
+
+    public TimeSpan TimePlay
+    {
+        get
+        {
+            if (TimeCheckOut != null && TimeCheckIn != null && IdTableBiaNavigation != null && IdTableBiaNavigation.IdCategoryNavigation != null)
+            {
+                TimeSpan duration = TimeCheckOut.Value - TimeCheckIn;
+                return duration;
+            }
+            else
+            {
+                // Handle null values or default cases
+                return TimeSpan.Zero; // Return default value if conditions are not met
+            }
         }
     }
 

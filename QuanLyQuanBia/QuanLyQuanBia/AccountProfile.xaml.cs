@@ -23,6 +23,7 @@ namespace QuanLyQuanBia
     {
         private readonly AccountObject accountObject;
         private readonly int accountId;
+
         public AccountProfile(int accountId)
         {
             accountObject = new AccountObject();

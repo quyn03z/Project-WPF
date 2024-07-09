@@ -27,6 +27,7 @@ namespace BusinessObject
 
         public List<Bill> GetBillByDate(DateTime dtpStartDate, DateTime dtpEndDate) => BillRepository.GetBillByDate(dtpStartDate, dtpEndDate);
 
+        public Bill getBillByBillId(int billId) => BillRepository.getBillByBillId(billId);
 
 
     }

@@ -1,0 +1,60 @@
+﻿<Window x:Class="QuanLyQuanBia.HoaDonPopup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyQuanBia"
+        mc:Ignorable="d"
+        Title="Billiard Club"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen" 
+        Height="550" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="HÓA ĐƠN THANH TOÁN" FontSize="24" FontWeight="Bold"  TextAlignment="Center" Margin="10"/>
+            <TextBlock  x:Name="txtMaHoaDon" Text="Mã hóa đơn:" Margin="10 0"/>
+            <TextBlock x:Name="txtNgayLapDon" Text="Ngày lập đơn:" Margin="10 5"/>
+            <TextBlock  x:Name="txtEmployeeName" Text="Nhân viên:" Margin="10 0 0 5"/>
+            <DockPanel>
+                <TextBlock  x:Name="txtTimePlay" Text="Thời gian chơi:" Margin="10 0 0 5"/>
+                <TextBlock  x:Name="txtTongTien" Text="Tổng Tiền: " Margin="10 0 0 5" Padding="100 0" HorizontalAlignment="Right"/>
+            </DockPanel>
+        </StackPanel>
+
+            <Grid Grid.Row="1"> 
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <ListView x:Name="lvBillInfo">
+                        <ListView.View>
+                            <GridView>
+                            <GridViewColumn Header="Water" Width="150" DisplayMemberBinding="{Binding IdWaterNavigation.Name}"/>
+                            <GridViewColumn Header="Quantity" Width="150" DisplayMemberBinding="{Binding Quantity}"/>
+                            <GridViewColumn Header="Price" Width="150" DisplayMemberBinding="{Binding IdWaterNavigation.Price,
+StringFormat={}{0:N3}}"/>
+                                <GridViewColumn Header="Total Price" Width="150" DisplayMemberBinding="{Binding TotalPrice,
+StringFormat={}{0:N3}}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </Grid>
+
+        <StackPanel Grid.Row="2" HorizontalAlignment="Right">
+            <TextBlock x:Name="txtTotalPrice" Text="Tổng tiền: " Margin="10"
+                       FontWeight="Bold" FontSize="14"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="3" Margin="15">
+            <TextBlock Text="------------------*------------------" TextAlignment="Center"/>
+            <TextBlock Text="Cảm ơn quý khách, hẹn gặp lại !" TextAlignment="Center" Margin="5"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>

@@ -2,6 +2,7 @@
 using DataAccess.Models;
 using DataAccess.Repository;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.Identity.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -243,6 +244,7 @@ namespace QuanLyQuanBia
                AccountProfile f = new AccountProfile(accountId);
                f.ShowDialog();                
             }
+
         }
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
@@ -387,15 +389,12 @@ namespace QuanLyQuanBia
 
                                 currentBill = billObject.GetBillByTableId(tableId).FirstOrDefault(); // lấy bill mới ra 
 
-                            }
-                           
-
+                            }                        
                             LoadTable();
                             if (currentBill != null)
                             {
                                 lvBill.ItemsSource = new List<Bill> { currentBill }; // Load bill mới vừa thêm vào
                             }
-
                         }
                         else
                         {
@@ -426,33 +425,59 @@ namespace QuanLyQuanBia
                     MessageBox.Show("Invalid table ID.");
                     return;
                 }
-
-                MessageBoxResult result = MessageBox.Show($"Bạn muốn thanh toán không?", "Warning", MessageBoxButton.YesNo, MessageBoxImage.Question);
-                if (result == MessageBoxResult.Yes)
+                TableBia table = tableBiaObject.GetTableBiaById1(tableId);
+                if (table.Status == "Trống")
                 {
-                    try
+                    MessageBox.Show("Bàn trống không thể thanh toán hóa đơn.");
+                    return;
+                }
+                else
+                {
+                    MessageBoxResult result = MessageBox.Show($"Bạn muốn thanh toán không?", "Warning", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                    if (result == MessageBoxResult.Yes)
                     {
-                        // Lấy các hóa đơn liên kết với ID bảng
-                        var bills = billObject.GetBillByTableId(tableId);
-
-                        foreach (var bill in bills)
+                        try
                         {
-                            // thanh toán và cập nhật status =  1 (paid)
-                            bill.Status = 1;
-                            billObject.UpdateBill(bill); 
+                            // Lấy các hóa đơn liên kết với ID bảng
+                            var bills = billObject.GetBillByTableId(tableId);
+
+                            foreach (var bill in bills)
+                            {
+                                // thanh toán và cập nhật status =  1 (paid)
+                                bill.Status = 1;
+                                billObject.UpdateBill(bill);
+                            }
+                            // Clear 
+                            currentBill = null;
+                            currentBillInfos = new List<BillInfo>();
+                            lvBill.ItemsSource = null;
+                            lvBillInfo.ItemsSource = null;
+                            txtTotalPrice.Text = "0 VND"; // Reset total price display
+                            tableBiaObject.UpdateTableStatus1(tableId);
+                            LoadTable();
+
+                            MessageBox.Show("Thanh toán hóa đơn thành công.");
+
+                            if (AccountObject.accountLogin != null)
+                            {
+                                int accountId = AccountObject.accountLogin.Id ?? 0;
+                                var bill = billObject.GetBillByTableId(tableId);
+                               
+                                if (bills.Any())
+                                {
+                                    int billId = bills.First().Id; // Get the Id of the first bill, assuming bills is not empty
+                                    double totalPrice = bills.First().TotalPrice;
+                                    TimeSpan timePlay = bills.First().TimePlay;
+                                    HoaDonPopup hoaDonPopup = new HoaDonPopup(accountId, billId, totalPrice, timePlay);
+                                    hoaDonPopup.ShowDialog();
+                                }
+
+                            }
                         }
-                        // Clear 
-                        currentBill = null;
-                        currentBillInfos = new List<BillInfo>();
-                        lvBill.ItemsSource = null;
-                        lvBillInfo.ItemsSource = null;
-                        txtTotalPrice.Text = "0 VND"; // Reset total price display
-                        tableBiaObject.UpdateTableStatus1(tableId);
-                        LoadTable();
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        }
                     }
                 }
             }

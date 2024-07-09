@@ -63,6 +63,24 @@ namespace DataAccess.Repository
             }
         }
 
+        public Bill getBillByBillId(int billId)
+        {
+            try
+            {
+                using var context = new QuanLyBilliardsClubContext();
+                return context.Bills
+                    .Where(o => o.Status == 1 && o.Id == billId)
+                    .Include(t => t.IdTableBiaNavigation)
+                    .OrderByDescending(b => b.Id)
+                    .FirstOrDefault();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+
         public Bill GetById(int id)
         {
             try

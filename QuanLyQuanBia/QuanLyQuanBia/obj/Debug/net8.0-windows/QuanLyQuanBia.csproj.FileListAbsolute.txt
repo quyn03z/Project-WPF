@@ -149,3 +149,5 @@ D:\Desktop\C# giao lang\ProjectWPF\QuanLyQuanBia\QuanLyQuanBia\bin\Debug\net8.0-
 D:\Desktop\C# giao lang\ProjectWPF\QuanLyQuanBia\QuanLyQuanBia\obj\Debug\net8.0-windows\QuanLyQu.2CCE37FE.Up2Date
 D:\Desktop\C# giao lang\ProjectWPF\QuanLyQuanBia\QuanLyQuanBia\obj\Debug\net8.0-windows\QuanLyQuanBia.genruntimeconfig.cache
 D:\Desktop\C# giao lang\ProjectWPF\QuanLyQuanBia\QuanLyQuanBia\obj\Debug\net8.0-windows\ref\QuanLyQuanBia.dll
+D:\Desktop\C# giao lang\ProjectWPF\QuanLyQuanBia\QuanLyQuanBia\obj\Debug\net8.0-windows\HoaDonPopup.g.cs
+D:\Desktop\C# giao lang\ProjectWPF\QuanLyQuanBia\QuanLyQuanBia\obj\Debug\net8.0-windows\HoaDonPopup.baml

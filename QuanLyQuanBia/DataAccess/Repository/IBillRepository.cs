@@ -18,5 +18,7 @@ namespace DataAccess.Repository
 
         public void UpdateBillTableId(int billId,int newTableId);
         List<Bill> GetBillByDate(DateTime dtpStartDate, DateTime dtpEndDate);
+
+        public Bill getBillByBillId(int billId);
     }
 }
